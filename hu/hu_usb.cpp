@@ -5,7 +5,7 @@
 #include <algorithm>
 
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 #ifndef LIBUSB_LOG_LEVEL_NONE
 #define LIBUSB_LOG_LEVEL_NONE     0

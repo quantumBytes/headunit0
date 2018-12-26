@@ -31,7 +31,7 @@
 
 #include <dirent.h>                                                   // For opendir (), readdir (), closedir (), DIR, struct dirent.
 #include <sys/utsname.h>
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 #include <execinfo.h>
 #include <dlfcn.h>    // for dladdr
 #include <cxxabi.h>   // for __cxa_demangle
